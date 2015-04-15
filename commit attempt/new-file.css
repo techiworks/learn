@@ -1,0 +1,158 @@
+*{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+body{
+	text-align:center;
+	font-family:Arial;
+	font-size:12px;
+	color:#303030;
+}
+header,nav,section,aside,footer {
+	display:block;
+}
+img {
+	border:none;
+}
+h2 { /*Dark grey titles*/
+	font-family:Arial;
+	font-size:14px;
+	color:#404040;
+}
+h3 { /*For titles*/
+	margin-bottom:15px;
+	font-size:22px;
+	color:white;
+	text-shadow:1px 1px 3px #080808; /*x-axis y-axis blurdness color*/
+}
+h4 {
+	font-family:Arial;
+	font-size:14px;
+	font-weight:normal;
+	color:#606060;
+}
+h5 { /*Address Prompt*/
+	text-align:center;
+	font-family:Arial;
+	font-size:14px;
+	color:#404040;
+}
+h6 { /*Address in Shipping Info*/
+	text-align:center;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:normal;
+	color:#606060;
+}
+table {
+	width:100%;
+	text-align:center;
+}
+th {
+	color:#888888;
+	font-weight:normal;
+	text-decoration:underline;
+}
+td {
+	padding:3 px 10px;
+}
+a:link {
+	color:#006699;
+	text-decoration:none;
+}
+a:visited {
+	color:#006699;
+	text-decoration:none;
+}
+a:hover a:active {
+	color:#cc6600;
+	text-decoration:underline;
+}
+.dates {
+	color:#cc6600;
+	font-weight:bold;
+}
+.offers {
+	color:#404040;
+	font-weight:bold;
+}
+.usernames {
+	color:#006699;
+	font-weight:bold;
+}
+.subtitles {
+	color:#707070;	
+}
+#wrapper {
+	width:1000px;
+	margin:15px auto 0px; /*Padding from top is 15 px, Padding from left and right should be equal so auto, padding from bottom 0 px*/
+	text-align:left;
+}
+#main_header {
+	
+}
+#right_align {
+	float:right;
+	text-align:right;
+}
+#top_search {
+	margin-top:10px;
+	padding:5px 0px 5px 10px;
+	display:block;
+	border-radius:7px;
+	-moz-border-radius:7px; /*Mozilla Firefox Border Radius*/
+	-webkit-border-radius:7px; /*Chrome/Safari Border Radius*/
+}
+#main_aside {
+	width:208px;
+	margin-top:10px;
+	margin-right:10px;
+	border-width:1px;
+	float:left;
+}
+#main_section {
+	margin-top:10px;
+	margin-bottom:20px;
+	float:left;
+	width:780px;
+}
+#main_footer {
+	padding-top:30px;
+	clear:both; /*No floating elements are allowed on its both side*/
+	font-size:10px;
+}
+.searchBox {
+	padding:2px;
+	border:1px solid #b9bdc1;
+	color:#505050;
+}
+.button {
+  background: #ced934;
+  background-image: -webkit-linear-gradient(top, #ced934, #361600);
+  background-image: -moz-linear-gradient(top, #ced934, #361600);
+  background-image: -ms-linear-gradient(top, #ced934, #361600);
+  background-image: -o-linear-gradient(top, #ced934, #361600);
+  background-image: linear-gradient(to bottom, #ced934, #361600);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.button:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.button:active {
+	postion:relative;
+	top:1px;
+}
